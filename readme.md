@@ -5,18 +5,22 @@ best hacker shortner
 
 Basically it helps you run commands you would use every day, but faster (because you don't have to type a lot)
 
+## Shell
+
+Your shell is by default: 
+```
+T:  targetHere % 
+```
+You can change it in `./src/bhssettings.py`
 
 ## Commands
 
 - target [your target]
     - Run this every time you open bhs, it will set the target
-
 - store v
     - View available stores
-
 - ports
     - View the ports store
-
 - nmap
     - Run nmap against the target
 
