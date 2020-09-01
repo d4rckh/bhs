@@ -24,7 +24,7 @@ You can change it in `./src/bhssettings.py`
 - nmap
     - Run nmap against the target
 
-![https://media.discordapp.net/attachments/738707167590350898/750425155356066012/unknown.png?width=329&height=195](https://media.discordapp.net/attachments/738707167590350898/750425155356066012/unknown.png?width=329&height=195)
+![https://media.discordapp.net/attachments/738707167590350898/750425155356066012/unknown.png?width=329&height=195](https://media.discordapp.net/attachments/738707167590350898/750425155356066012/unknown.png)
 
 ## To do
 
