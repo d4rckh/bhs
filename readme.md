@@ -5,7 +5,7 @@ best hacker shortner
 
 Basically it helps you run commands you would use every day, but faster (because you don't have to type a lot)
 
-Note: for now this only contains an `nmap` parser, but soon enough it will every script you would normally use
+Note: for now this only contains an `nmap` parser, but soon enough it will have every script you would normally use
 
 Process is simple: RUN > PARSE > SAVE > VIEW
 
