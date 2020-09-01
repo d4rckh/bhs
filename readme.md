@@ -24,10 +24,10 @@ Basically it helps you run commands you would use every day, but faster (because
 
 ## To do
 
-[ ] save sessions
+- save sessions
 
-[ ] make the nmap parser better
+- make the nmap parser better
 
-[ ] add dirbust parser
+- add dirbust parser
 
-[ ] .....
+- .....
