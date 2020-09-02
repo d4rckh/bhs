@@ -5,8 +5,11 @@ def open(cmd):
 
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, bufsize=1)
     for line in iter(p.stdout.readline, b''):
-        out.append(line.decode("utf-8"))
-        
+        l = line.decode("utf-8")
+        out.append(l)
+        if not l.strip == "":
+            print(l)
+
     p.stdout.close()
     p.wait()
 

@@ -11,7 +11,6 @@ def handle(cmd, args, ses):
         try:
             cFile = __import__("src.action." + cmd, fromlist=["Command"])
         except:
-            print("Command not found")
             return
         cClass = cFile.Command(args, ses)
         fail = False
