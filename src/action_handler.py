@@ -8,7 +8,11 @@ def handle(cmd, args, ses):
     if cmd == "target":
         return cRes.cRes("target", None, args[1])
     else:
-        cFile = __import__("src.action." + cmd, fromlist=["Command"])
+        try:
+            cFile = __import__("src.action." + cmd, fromlist=["Command"])
+        except:
+            print("Command not found")
+            return
         cClass = cFile.Command(args, ses)
         fail = False
         error = ""
