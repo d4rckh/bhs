@@ -2,9 +2,15 @@ import src.bhssettings as settings
 import src.util.cRes as cRes
 from src.util.checkPort import checkPort
 
+from os import system
+
 def handle(cmd, args, ses):
     if cmd.strip() == "":
         return None
+
+    if cmd[0] == "!":
+        system(cmd[1:])
+
     if cmd == "target":
         return cRes.cRes("target", None, args[1])
     else:
