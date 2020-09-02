@@ -1,4 +1,0 @@
-target localhost
-nmap
-dirbust
-commands s dirbust
