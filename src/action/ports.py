@@ -6,13 +6,14 @@ class Command:
     def __init__(self, args, session):
         self.args = args
         self.ses = session
+        self.requiredPorts = []
         pass
 
     def run(self):
 
         for store in self.ses.stores:
             if store.name == "ports":
-                self.ses.ports = store.val
+                self.ses.ports = store.val["nmap"]
                 console = Console()
 
                 table = Table(show_header=True, header_style="bold green")

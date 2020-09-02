@@ -6,6 +6,7 @@ class Command:
     def __init__(self, args, session):
         self.args = args
         self.ses = session
+        self.requiredPorts = []
         pass
 
     def run(self):
